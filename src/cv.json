@@ -1,0 +1,207 @@
+{
+  "basics": {
+    "name": "Darwin Melian",
+    "label": "Back End Developer",
+    "image": "",
+    "email": "darwin.me@gmail.com",
+    "phone": "+593998224292",
+    "url": "https://github.com/LawinCx",
+    "summary": "A summary of John Doe…",
+    "location": {
+      "address": "Downtown Oporto",
+      "postalCode": "",
+      "city": "Oporto",
+      "country": "Portugal"
+    },
+    "profiles": [
+        {
+            "network": "Github",
+            "username": "Lawincx",
+            "url": "https://github.com/LawinCx"
+        },
+        {
+            "network": "LinkedIn",
+            "username": "LawinCx",
+            "url": "https://www.linkedin.com/in/lawin-cx/"
+        },
+        {
+            "network": "Instagram",
+            "username": "LawinCx",
+            "url": "https://www.instagram.com/lawin_cx/"
+        }
+    ]
+  },
+  "work": [
+    {
+        "name": "Seneca SAS Corporation",
+        "position": "Data Engineer",
+        "url": "https://seneca-corp.com",
+        "startDate": "01/02/2023",
+        "endDate": "Present",
+        "summary": "Description…",
+        "highlights": [
+            "Migration of a full datacenter from Oracle to MySQL"
+        ]
+    },
+    {
+        "name": "Inova Solutions",
+        "position": "SQL Developer",
+        "url": "https://inova-solutions.com",
+        "startDate": "01/07/2022",
+        "endDate": "01/02/2023",
+        "summary": "Description…",
+        "highlights": []
+    },
+    {
+        "name": "Catedral Corporation",
+        "position": "Data Analyst",
+        "url": "https://catedral-corp.com",
+        "startDate": "01/07/2021",
+        "endDate": "01/07/2022",
+        "summary": "Description…",
+        "highlights": [
+            "Significant improvements on the reach that have every restaurant in the city"
+        ]
+    },
+    {
+        "name": "Negon",
+        "position": "Excel Administrator",
+        "url": "https://negon.com",
+        "startDate": "01/10/2020",
+        "endDate": "01/07/2021",
+        "summary": "Description…",
+        "highlights": []
+    }
+  ],
+  "education": [{
+    "institution": "Escuela Politécnica Nacional",
+    "url": "https://www.epn.edu.ec",
+    "area": "Software Engineering",
+    "studyType": "Bachelor",
+    "startDate": "01/02/2018",
+    "endDate": "01/10/2021"
+  }],
+  "certificates": [
+    {
+        "name": "The Data Science Course: Complete Data Science Bootcamp 2024",
+        "date": "13/04/2024",
+        "platform": "Udemy"
+    },
+    {
+        "name": "Data Warehouses - The Ultimate Guide",
+        "date": "15/11/2023",
+        "platform": "Udemy"
+    },
+    {
+        "name": "Data Analysis with Python",
+        "date": "01/11/2022",
+        "platform": "FreeCodeCamp"
+    },
+    {
+        "name": "Power BI Data Analyst Associate",
+        "date": "01/07/2022",
+        "platform": "Microsoft"
+    }
+  ],
+  "skills": [
+    {
+        "name": "Data Analyst",
+        "level": "Expert",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "REST API",
+            "MySQL",
+            "PostgreSQL",
+            "SQL Server",
+            "Microsoft Azure",
+            "Jupyter Notebooks",
+            "Data Warehouse",
+            "Power BI",
+            "Tableau",
+            "SSIS"
+        ]
+    },
+    {
+        "name": "Backend Development",
+        "level": "Intermediate",
+        "technologies": [
+            "Python",
+            "TypeScript",
+            "Oauth2 API",
+            "REST API",
+            "GraphQL",
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "Microsoft Azure"
+        ]
+    },
+    {
+        "name": "Frontend Development",
+        "level": "Beginner",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Astro",
+            "Tailwind"
+        ]
+    }
+  ],
+  "languages": [
+    {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+    },
+    {
+        "language": "English",
+        "fluency": "Advanced"
+    },
+    {
+        "language": "Portuguese",
+        "fluency": "Advanced"
+    },
+    {
+        "language": "Italian",
+        "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+        "name": "Reading",
+        "keywords": [
+            "Books",
+            "Manga"
+        ]
+    },
+    {
+        "name": "Watching Movies and Series",
+        "keywords": [
+            "Movies",
+            "Series",
+            "Anime"
+        ]
+    },
+    {
+        "name": "Swimming",
+        "keywords": [
+            "Long distance",
+            "Freestyle",
+            "Butterfly"
+        ]
+    }
+  ],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}
