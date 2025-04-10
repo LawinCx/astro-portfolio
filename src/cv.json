@@ -15,12 +15,12 @@
     },
     "profiles": [
         {
-            "network": "Github",
+            "network": "GitHub",
             "username": "Lawincx",
             "url": "https://github.com/LawinCx"
         },
         {
-            "network": "LinkedIn",
+            "network": "Linkedin",
             "username": "LawinCx",
             "url": "https://www.linkedin.com/in/lawin-cx/"
         },
