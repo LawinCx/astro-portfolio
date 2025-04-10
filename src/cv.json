@@ -37,7 +37,7 @@
         "position": "Data Engineer",
         "url": "https://seneca-corp.com",
         "startDate": "01/02/2023",
-        "endDate": "Present",
+        "endDate": null,
         "summary": "Description…",
         "highlights": [
             "Migration of a full datacenter from Oracle to MySQL"
