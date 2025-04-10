@@ -1,0 +1,40 @@
+---
+import { basics } from '../../cv.json'
+import Section from '../Sections.astro' 
+
+// Subir imagen hecha con ia?
+const { name, label, location, image, profiles, phone, email, url } = basics
+const { address, city, country } = location
+---
+
+<Section>
+    <div class = "hero"> 
+        <div class = "info">
+            <h1>{name}</h1>
+            <h2>{label}</h2>
+            <span>
+                {city}, {country}.
+            </span>
+            <footer>
+                {
+                    email && (
+                        <a 
+                            href = {`mailto:${email}`}
+                            title = {`Send an email to ${email}`}
+                            target = "_blank"
+                            rel = "noopener noreferrer"
+                        >
+                        </a>
+                    )
+                }
+            </footer>
+        </div>
+        <figure>
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+</Section>
+
+<style>
+
+</style>
