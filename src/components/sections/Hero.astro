@@ -1,10 +1,22 @@
 ---
 import { basics } from '../../cv.json'
 import Section from '../Sections.astro' 
+import Mail from '../../icons/Mail.astro'
+import Phone from '../../icons/Phone.astro'
+import GitHub from '../../icons/GitHub.astro' 
+import Linkedin from '../../icons/Linkedin.astro' 
+import Instagram from '../../icons/Instagram.astro' 
+import WorldMap from '../../icons/WorldMap.astro' 
 
 // Subir imagen hecha con ia?
 const { name, label, location, image, profiles, phone, email, url } = basics
 const { address, city, country } = location
+
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub,
+    Linkedin,
+    Instagram
+}
 ---
 
 <Section>
@@ -13,6 +25,7 @@ const { address, city, country } = location
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
+                <WorldMap />
                 {city}, {country}.
             </span>
             <footer>
@@ -24,8 +37,36 @@ const { address, city, country } = location
                             target = "_blank"
                             rel = "noopener noreferrer"
                         >
+                            <Mail />
                         </a>
                     )
+                }
+                {
+                    phone && (
+                        <a 
+                            href = {`tel:${phone}`}
+                            title = {`Call or send a message to ${phone}`}
+                            target = "_blank"
+                            rel = "noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network]
+                        return (
+                            <a 
+                                href = {url}
+                                title = {`Visit ${username} on ${network}`}
+                                target = "_blank"
+                                rel = "noopener noreferrer"
+                            >
+                                <Icon />
+                            </a>
+                        )
+                    })
                 }
             </footer>
         </div>
@@ -36,5 +77,68 @@ const { address, city, country } = location
 </Section>
 
 <style>
+    .hero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
 
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 32px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 500;
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+
+    img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 6px;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.9rem;
+        color: #666;
+        letter-spacing: -0.05rem;
+    }
+
+    footer {
+        display: flex;
+        gap: 5px;
+        margin-top: 8px;
+    }
+
+    footer a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #777;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+        color: #444;
+    }
 </style>
