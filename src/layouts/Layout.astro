@@ -13,10 +13,16 @@
 </html>
 
 <style is:global>
+	@font-face {
+		font-family: 'Bookerly Display';
+		src: url('/src/fonts/Bookerly-Regular.woff2') format('woff2');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 	html {
-		font-family: monospace, 'Courier New', Courier, Menlo, Monaco, Lucida Console;
+		font-family: 'Bookerly Display', sans-serif;
 		background: #fff;
-		letter-spacing: -0.025em;
 	}
 
 	body, figure {
@@ -40,7 +46,6 @@
 
 	h1, h2, h3, h4 {
 		margin: 0;
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	p {
