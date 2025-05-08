@@ -38,7 +38,7 @@
         "url": "https://seneca-corp.com",
         "startDate": "01/02/2023",
         "endDate": null,
-        "summary": "Description…",
+        "summary": "Creation of Databases in Oracle and Microsoft. Creation of complete data systems using Datawarehouse as a system. Process automation using Oracle, SSIS and Pentaho. Automation of reports with Power BI and SSRS. Creation and automation of ETL and ELT processes using SSIS.",
         "highlights": [
             "Migration of a full datacenter from Oracle to MySQL"
         ]
@@ -49,7 +49,7 @@
         "url": "https://inova-solutions.com",
         "startDate": "01/07/2022",
         "endDate": "01/02/2023",
-        "summary": "Description…",
+        "summary": "Creation and automation of queries, triggers and procedures using SQL Server. Creation and automation of ETL's using SSIS and automate reports in Power BI and SSRS.",
         "highlights": []
     },
     {
@@ -58,7 +58,7 @@
         "url": "https://catedral-corp.com",
         "startDate": "01/07/2021",
         "endDate": "01/07/2022",
-        "summary": "Description…",
+        "summary": "Cleansing and manipulation of data with Python, execution of queries in SQL Server and realization of reports and their automation with Power Bi dedicated to the marketing and accountant area.",
         "highlights": [
             "Significant improvements on the reach that have every restaurant in the city"
         ]
@@ -69,7 +69,7 @@
         "url": "https://negon.com",
         "startDate": "01/10/2020",
         "endDate": "01/07/2021",
-        "summary": "Description…",
+        "summary": "Cleaning of Excel files, Excel macros and making reports in Excel and pivot tables.",
         "highlights": []
     }
   ],
