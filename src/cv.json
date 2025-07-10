@@ -21,13 +21,13 @@
         },
         {
             "network": "Linkedin",
-            "username": "LawinCx",
-            "url": "https://www.linkedin.com/in/lawin-cx/"
+            "username": "Darwin Guerra",
+            "url": "https://www.linkedin.com/in/darwin-guerra-577784205/"
         },
         {
             "network": "Instagram",
-            "username": "LawinCx",
-            "url": "https://www.instagram.com/lawin_cx/"
+            "username": "Darwin",
+            "url": "https://www.instagram.com/lawi_dg/"
         }
     ]
   },
@@ -119,7 +119,12 @@
             "Data Warehouse",
             "Power BI",
             "Tableau",
-            "SSIS"
+            "SSIS",
+            "Power Platform",
+            "Sharepoint",
+            "Power Automate",
+            "Power Apps",
+            "Pentaho"
         ]
     },
     {
