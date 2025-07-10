@@ -1,0 +1,211 @@
+{
+    "basics": {
+      "name": "Darwin Melian",
+      "label": "Analista de Dados, Engenheiro de Dados com sólidos conhecimentos como Programador Back-End.",
+      "image": "",
+      "email": "darwin.me@gmail.com",
+      "phone": "+593998224292",
+      "url": "https://github.com/LawinCx",
+      "summary": "Mais de 4 anos de experiência como Analista de Dados e atualmente a trabalhar como Engenheiro de Dados. Contribuí para projetos envolvendo transformação, modelação e visualização de dados, assim como soluções de back-end focadas na automatização e otimização de processos. Reúno pensamento analítico e conhecimentos técnicos para fornecer soluções completas orientadas por dados.",  
+      "location": {
+        "address": "Baixa do Porto",
+        "postalCode": "",
+        "city": "Porto",
+        "country": "Portugal"
+      },
+      "profiles": [
+          {
+              "network": "GitHub",
+              "username": "Lawincx",
+              "url": "https://github.com/LawinCx"
+          },
+          {
+              "network": "Linkedin",
+              "username": "Darwin Guerra",
+              "url": "https://www.linkedin.com/in/darwin-guerra-577784205/"
+          },
+          {
+              "network": "Instagram",
+              "username": "Darwin",
+              "url": "https://www.instagram.com/lawi_dg/"
+          }
+      ]
+    },
+    "work": [
+      {
+          "name": "Seneca SAS Corporation",
+          "position": "Engenheiro de Dados",
+          "url": "https://seneca-corp.com",
+          "startDate": "01/02/2023",
+          "endDate": null,
+          "summary": "Criação de bases de dados em Oracle e Microsoft. Desenvolvimento de sistemas de dados completos utilizando Datawarehouse como sistema central. Automatização de processos com Oracle, SSIS e Pentaho. Automatização de relatórios com Power BI e SSRS. Criação e automatização de processos ETL e ELT utilizando SSIS.",
+          "highlights": [
+              "Migração de um centro de dados completo de Oracle para MySQL."
+          ]
+      },
+      {
+          "name": "Inova Solutions",
+          "position": "Programador SQL",
+          "url": "https://inova-solutions.com",
+          "startDate": "01/07/2022",
+          "endDate": "01/02/2023",
+          "summary": "Criação e automatização de consultas, triggers e procedimentos utilizando SQL Server. Criação e automatização de processos ETL com SSIS e automatização de relatórios em Power BI e SSRS.",
+          "highlights": []
+      },
+      {
+          "name": "Catedral Corporation",
+          "position": "Analista de Dados",
+          "url": "https://catedral-corp.com",
+          "startDate": "01/07/2021",
+          "endDate": "01/07/2022",
+          "summary": "Limpeza e manipulação de dados com Python, execução de consultas em SQL Server e elaboração de relatórios e respetiva automatização com Power BI, dedicados às áreas de marketing e contabilidade.",
+          "highlights": [
+              "Melhorias significativas no alcance de cada restaurante na cidade."
+          ]
+      },
+      {
+          "name": "Negon",
+          "position": "Administrador de Excel",
+          "url": "https://negon.com",
+          "startDate": "01/10/2020",
+          "endDate": "01/07/2021",
+          "summary": "Limpeza de ficheiros Excel, macros em Excel e elaboração de relatórios em Excel e tabelas dinâmicas.",
+          "highlights": []
+      }
+    ],
+    "education": [{
+      "institution": "Escuela Politécnica Nacional",
+      "url": "https://www.epn.edu.ec",
+      "area": "Engenheiro de Software",
+      "studyType": "Bachelor",
+      "startDate": "01/02/2018",
+      "endDate": "01/10/2021"
+    }],
+    "certificates": [
+      {
+          "name": "The Data Science Course: Complete Data Science Bootcamp 2024",
+          "date": "13/04/2024",
+          "platform": "Udemy"
+      },
+      {
+          "name": "Data Warehouses - The Ultimate Guide",
+          "date": "15/11/2023",
+          "platform": "Udemy"
+      },
+      {
+          "name": "Data Analysis with Python",
+          "date": "01/11/2022",
+          "platform": "FreeCodeCamp"
+      },
+      {
+          "name": "Power BI Data Analyst Associate",
+          "date": "01/07/2022",
+          "platform": "Microsoft"
+      }
+    ],
+    "skills": [
+      {
+          "name": "Analista de Dados",
+          "level": "Especialista",
+          "technologies": [
+              "Python",
+              "Pandas",
+              "REST API",
+              "MySQL",
+              "PostgreSQL",
+              "SQL Server",
+              "Microsoft Azure",
+              "Jupyter Notebooks",
+              "Data Warehouse",
+              "Power BI",
+              "Tableau",
+              "SSIS",
+              "Power Platform",
+              "Sharepoint",
+              "Power Automate",
+              "Power Apps",
+              "Pentaho"
+          ]
+      },
+      {
+          "name": "Programador Backend", 
+          "level": "Intermédio",
+          "technologies": [
+              "Python",
+              "TypeScript",
+              "Oauth2 API",
+              "REST API",
+              "GraphQL",
+              "MySQL",
+              "PostgreSQL",
+              "MongoDB",
+              "Redis",
+              "Microsoft Azure"
+          ]
+      },
+      {
+          "name": "Programador Frontend",
+          "level": "Iniciante",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "React",
+              "Astro",
+              "Tailwind"
+          ]
+      }
+    ],
+    "languages": [
+      {
+          "language": "Espanhol",
+          "fluency": "Falante Nativo"
+      },
+      {
+          "language": "Inglês",
+          "fluency": "Avançado"
+      },
+      {
+          "language": "Português",
+          "fluency": "Avançado"
+      },
+      {
+          "language": "Italiano",
+          "fluency": "Intermédio"
+      }
+    ],
+    "interests": [
+      {
+          "name": "Leitura",
+          "keywords": [
+              "Livros",
+              "Manga"
+          ]
+      },
+      {
+          "name": "Assistir a Filmes e Séries",
+          "keywords": [
+              "Filmes",
+              "Séries",
+              "Anime"
+          ]
+      },
+      {
+          "name": "Natação",
+          "keywords": [
+              "Longa Distância",
+              "Freestyle",
+              "Butterfly"
+          ]
+      }
+    ],
+    "projects": [{
+      "name": "Project",
+      "isAtive": true,
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }
