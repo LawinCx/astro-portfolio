@@ -8,9 +8,8 @@ import Linkedin from '../../icons/Linkedin.astro'
 import Instagram from '../../icons/Instagram.astro' 
 import WorldMap from '../../icons/WorldMap.astro' 
 
-// Subir imagen hecha con ia?
-const { name, label, location, image, profiles, phone, email, url } = basics
-const { address, city, country } = location
+const { name, label, location, image, profiles, phone, email } = basics
+const { city, country } = location
 
 const SOCIAL_ICONS: Record<string, any> = {
     GitHub,
@@ -54,12 +53,12 @@ const SOCIAL_ICONS: Record<string, any> = {
                     )
                 }
                 {
-                    profiles.map(({ network, url, username }) => {
-                        const Icon = SOCIAL_ICONS[network]
+                    profiles.map((profile: { network: string; url: string; username: string }) => {
+                        const Icon = SOCIAL_ICONS[profile.network]
                         return (
                             <a 
-                                href = {url}
-                                title = {`Visit ${username} on ${network}`}
+                                href = {profile.url}
+                                title = {`Visit ${profile.username} on ${profile.network}`}
                                 target = "_blank"
                                 rel = "noopener noreferrer"
                             >
@@ -125,7 +124,7 @@ const SOCIAL_ICONS: Record<string, any> = {
         margin-top: 8px;
     }
 
-    footer a {
+    footer > a {
         display: inline-flex;
         align-items: center;
         justify-content: center;
