@@ -37,7 +37,7 @@
           "position": "Engenheiro de Dados",
           "url": "https://seneca-corp.com",
           "startDate": "01/02/2023",
-          "endDate": null,
+          "endDate": "15/07/2025",
           "summary": "Criação de bases de dados em Oracle e Microsoft. Desenvolvimento de sistemas de dados completos utilizando Datawarehouse como sistema central. Automatização de processos com Oracle, SSIS e Pentaho. Automatização de relatórios com Power BI e SSRS. Criação e automatização de processos ETL e ELT utilizando SSIS.",
           "highlights": [
               "Migração de um centro de dados completo de Oracle para MySQL."
