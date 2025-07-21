@@ -37,7 +37,7 @@
         "position": "Data Engineer",
         "url": "https://seneca-corp.com",
         "startDate": "01/02/2023",
-        "endDate": null,
+        "endDate": "15/07/2025",
         "summary": "Creation of Databases in Oracle and Microsoft. Creation of complete data systems using Datawarehouse as a system. Process automation using Oracle, SSIS and Pentaho. Automation of reports with Power BI and SSRS. Creation and automation of ETL and ELT processes using SSIS.",
         "highlights": [
             "Migration of a full datacenter from Oracle to MySQL"
