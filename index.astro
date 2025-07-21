@@ -1,0 +1,34 @@
+---
+import Layout from './src/layouts/Layout.astro'
+
+import Hero from './src/components/sections/Hero.astro'
+import About from './src/components/sections/About.astro'
+import Projects from './src/components/sections/Projects.astro'
+import Experience from './src/components/sections/Experience.astro'
+import Education from './src/components/sections/Education.astro'
+import Skills from './src/components/sections/Skills.astro'
+import KeyboardManager from './src/components/sections/KeyboardManager.astro'
+import Languages from './src/components/sections/Languages.astro'
+---
+
+<Layout title = 'Portfolio'>
+	<main>
+		<Hero />
+		<About />
+		<Experience />
+		<Projects />
+		<Skills />
+		<Education />
+		<Languages />
+	</main>
+
+	<!-- <KeyboardManager /> -->
+</Layout>
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+</style>
